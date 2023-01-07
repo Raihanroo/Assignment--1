@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    
+
 }
 
-.banner{
+.banner {
     background-image: url(../images/banner/banner11.png);
     padding: 200px 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.b-text{
+
+.b-text {
     font-size: 60px;
     font-weight: 600;
     margin-left: 80px;
@@ -20,15 +21,15 @@
 
 }
 
-.b-description{
-   font-size: 16px;
-   color:#444343; 
-   margin-left: 80px;
-   margin-bottom: 30px;
+.b-description {
+    font-size: 16px;
+    color: #444343;
+    margin-left: 80px;
+    margin-bottom: 30px;
 
 }
 
-.b-btn{
+.b-btn {
     font-size: 20px;
     padding: 18px 30px;
     color: #FFFF;
@@ -36,21 +37,22 @@
     border: none;
     border-radius: 5px;
     margin-left: 80px;
-    
+
 }
 
 /*  banner style  */
 
-.failure{
+.failure {
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
 }
 
-.failure-img{
+.failure-img {
     margin-left: 110px;
 }
-.fai-text1{
+
+.fai-text1 {
     font-size: 40px;
     font-weight: 600;
     margin-right: 200px;
@@ -58,11 +60,145 @@
     padding-bottom: 20px;
 }
 
-.fai-description{
+.fai-description {
     margin-right: 250px;
     padding-bottom: 20px;
 }
 
-.para-praimary{
+/* plan style */
 
+.plan-header {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.plan-icon {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.i-img {
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+
+.i-text .icon-1text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.i-text .icon-description {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.icon-2 .i-text .icon-1text {
+    margin-left: 50px;
+}
+
+.icon-3 .i-img {
+    margin-left: 20px;
+}
+
+.icon-3 .i-text .icon-description {
+    margin-left: 18px;
+}
+
+.icon-4 .i-text {
+    margin-left: 40px;
+}
+
+.icon-4 .i-text .description {
+    margin-top: 10px;
+}
+
+/* watch style  */
+
+.position {
+   margin: 100px;
+}
+.position-box{
+    background-image:linear-gradient(to left, rgba(255,0,0,0), rgba(241, 90, 25, 0.918)), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 50px;
+    height: 30vh;
+    border-radius: 5px; 
+}
+.pos-text{
+    color: #FFFF;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pos-btn {
+    padding: 10px 12px;
+    color: coral;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/* future style */
+
+.future{
+    background-color: black;
+    padding: 100px;
+}
+
+.futer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.fu-head{
+    color: #FFFF;
+    font-size: 30px;
+}
+
+.fu-description{
+    color: #FFFF;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.fu-info{
+    color: #FFFF;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.img-info{
+    margin-top: 40px;
+}
+
+.futur-subsribe {
+   color: #FFFF;
+   font-size: 16px;
+}
+
+.future-2nd{
+  margin-right: 100px;
+}
+
+.future-2nd input{
+    margin-top: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    background-color: transparent;
+    border: 1px solid #FFFF;
+    border-radius: 5px;
+}
+
+.future-2nd .pos-btn{
+    margin-top: 20px;
 }
