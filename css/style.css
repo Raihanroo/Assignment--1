@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
 }
 
 .banner{
@@ -16,19 +17,19 @@
     font-weight: 600;
     margin-left: 80px;
     margin-bottom: 20px;
-    font-family: 'Work Sans', sans-serif;
+
 }
+
 .b-description{
    font-size: 16px;
    color:#444343; 
    margin-left: 80px;
-   font-family: 'Work Sans', sans-serif;
    margin-bottom: 30px;
+
 }
 
 .b-btn{
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
     padding: 18px 30px;
     color: #FFFF;
     background: coral;
@@ -39,3 +40,29 @@
 }
 
 /*  banner style  */
+
+.failure{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.failure-img{
+    margin-left: 110px;
+}
+.fai-text1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 200px;
+    padding-top: 250px;
+    padding-bottom: 20px;
+}
+
+.fai-description{
+    margin-right: 250px;
+    padding-bottom: 20px;
+}
+
+.para-praimary{
+
+}
